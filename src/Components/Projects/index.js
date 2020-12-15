@@ -10,13 +10,44 @@ function Projects(){
             <div className="portfolio">
             <Container>
               <Row>
-                  <Col sm={12} md={12} lg={6}>1 of 2</Col>
-                  <Col sm={12} md={12} lg={6}>2 of 2</Col>
+                  <Col sm={12} md={12} lg={6} style={{"margin-top": "20px"}}>
+                      <div className="example">
+                         <img src={require("../../assets/images/food-choice.png").default} alt="link to second project"/>
+                         <div className="content"> 
+                              <h3>Project2</h3>
+                              <p>Food Choices</p>
+                         </div>
+                      </div>
+                  
+                  </Col>
+                  <Col sm={12} md={12} lg={6} style={{"margin-top": "20px"}}>
+                      <div className="example">
+                         <img src={require("../../assets/images/food-choice.png").default} alt="link to second project"/>
+                         <div className="content"> 
+                              <h3>Project2</h3>
+                              <p>Food Choices</p>
+                         </div>
+                      </div>
+                  </Col>
               </Row>
              <Row>
-                <Col xs={12} md={12}>1 of 3</Col>
-                <Col xs={12} md={12}>2 of 3</Col>
-                <Col xs={12} md={12}>3 of 3</Col>
+                <Col xs={12} md={12} lg={6} style={{"margin-top": "20px"}}>
+                      <div className="example">
+                         <img src={require("../../assets/images/food-choice.png").default} alt="link to second project"/>
+                         <div className="content"> 
+                              <h3>Project2</h3>
+                              <p>Food Choices</p>
+                         </div>
+                      </div></Col>
+                <Col xs={12} md={12} lg={6} style={{"margin-top": "20px"}}>
+                      <div className="example">
+                         <img src={require("../../assets/images/food-choice.png").default} alt="link to second project"/>
+                         <div className="content"> 
+                              <h3>Project2</h3>
+                              <p>Food Choices</p>
+                         </div>
+                      </div></Col>
+                
              </Row>    
            </Container>
              

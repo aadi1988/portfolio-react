@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from '../Nav'
+import Nav1 from '../Nav1'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLaptop } from '@fortawesome/free-solid-svg-icons' 
 function Header(props){
@@ -16,7 +16,7 @@ function Header(props){
         <header>
           <h1 style={{color: "white"}}>{laptop}Aaditi Pai</h1>   
        
-          <Nav 
+          <Nav1 
           categories={categories}
           setCurrentCategory={setCurrentCategory}
           currentCategory={currentCategory}
