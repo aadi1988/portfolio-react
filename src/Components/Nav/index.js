@@ -1,22 +1,31 @@
 import React from 'react'
+import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Nav(){
+function Nav(props){
+   const {
+      categories = [],
+      setCurrentCategory,
+      currentCategory,
+      portfolioSelected,
+      setPortfolioSelected
+    } = props;
+ 
    return(
-    
+      
       <nav>
-         <ul>
-            <li>
-              <h2> About Me</h2>
-            </li>
-            <li>
-              <h2> Portfolio</h2>
-            </li>
-            <li>
-                <h2> Contact Me</h2>
-            </li>
-            <li>
-                <h2> Resume</h2>
-            </li>
+         <ul className="NavUl">
+             <li className="NavLi">
+                <a href="#" onClick={() => setPortfolioSelected(false)}>
+                   Cover
+                </a>
+              </li>
+            {categories.map((category) => (
+                <li className={`NavLi ${currentCategory === category && !portfolioSelected && 'navActive'}`} key={category}>
+                  <span onClick={() => {setCurrentCategory(category);setPortfolioSelected(true);}}>
+                    {capitalizeFirstLetter(category)}
+                  </span>
+                </li>
+              ))}
          </ul>
       </nav>
     

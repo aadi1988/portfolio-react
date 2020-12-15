@@ -1,29 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState }  from 'react';
 import Header from './Components/Header';
 import Cover from './Components/Cover';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons' 
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons' 
+import Portfolio from './Components/Portfolio';
+import Footer from './Components/Footer';
 
 function App() {
-  const github = <FontAwesomeIcon icon={faGithub} size="2x"/>
-  const linkedin = <FontAwesomeIcon icon={faLinkedin} size="2x"/>
-  console.log(github);
-  return (
+  const [portfolioSelected, setPortfolioSelected] = useState(false);
+  const [categories] = useState(['About Me', 'Portfolio','Contact Me','Resume']);
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  
+  return (  
+ 
     <div>
-        <Header/>
-        <Cover/>
-        <footer>
-        <ul>
-            <li>
-              <span role="img" aria-label="github">{github}</span>
-            </li>
-            <li>
-              <span role="img" aria-label="linkedin">{linkedin}</span>
-            </li>
-         </ul>
-        </footer>
+        <Header
+          categories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+          portfolioSelected={portfolioSelected}
+          setPortfolioSelected={setPortfolioSelected}
+        />
+        {!portfolioSelected ? (
+          <>
+            <Cover/>
+          </>
+        ):(   
+           <Portfolio
+           currentCategory={currentCategory}
+           />
+        )}
+        <Footer/>
     </div>
     
   );
