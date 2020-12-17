@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.eb90f957.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.0b482abd.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.0b482abd.chunk.js.map",
-    "runtime-main.js": "/portfolio-react/static/js/runtime-main.006b524d.js",
-    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.006b524d.js.map",
-    "static/js/2.36200fa9.chunk.js": "/portfolio-react/static/js/2.36200fa9.chunk.js",
-    "static/js/2.36200fa9.chunk.js.map": "/portfolio-react/static/js/2.36200fa9.chunk.js.map",
-    "static/js/3.a25fe736.chunk.js": "/portfolio-react/static/js/3.a25fe736.chunk.js",
-    "static/js/3.a25fe736.chunk.js.map": "/portfolio-react/static/js/3.a25fe736.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.a858e35c.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.7dee4a68.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.7dee4a68.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.5031cecd.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.5031cecd.js.map",
+    "static/js/2.b61c3309.chunk.js": "/portfolio-react/static/js/2.b61c3309.chunk.js",
+    "static/js/2.b61c3309.chunk.js.map": "/portfolio-react/static/js/2.b61c3309.chunk.js.map",
+    "static/js/3.6b9f23ea.chunk.js": "/portfolio-react/static/js/3.6b9f23ea.chunk.js",
+    "static/js/3.6b9f23ea.chunk.js.map": "/portfolio-react/static/js/3.6b9f23ea.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "static/css/main.eb90f957.chunk.css.map": "/portfolio-react/static/css/main.eb90f957.chunk.css.map",
-    "static/js/2.36200fa9.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.36200fa9.chunk.js.LICENSE.txt",
+    "static/css/main.a858e35c.chunk.css.map": "/portfolio-react/static/css/main.a858e35c.chunk.css.map",
+    "static/js/2.b61c3309.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.b61c3309.chunk.js.LICENSE.txt",
+    "static/media/Common-capitalism.png": "/portfolio-react/static/media/Common-capitalism.c3a6b34f.png",
+    "static/media/IMG_4176.jpg": "/portfolio-react/static/media/IMG_4176.70640265.jpg",
     "static/media/food-choice.png": "/portfolio-react/static/media/food-choice.c538b933.png",
-    "static/media/logo.6ce24c58.svg": "/portfolio-react/static/media/logo.6ce24c58.svg",
-    "static/media/swEng.57b2e138.jpg": "/portfolio-react/static/media/swEng.57b2e138.jpg"
+    "static/media/logo.6ce24c58.svg": "/portfolio-react/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.006b524d.js",
-    "static/js/2.36200fa9.chunk.js",
-    "static/css/main.eb90f957.chunk.css",
-    "static/js/main.0b482abd.chunk.js"
+    "static/js/runtime-main.5031cecd.js",
+    "static/js/2.b61c3309.chunk.js",
+    "static/css/main.a858e35c.chunk.css",
+    "static/js/main.7dee4a68.chunk.js"
   ]
 }
