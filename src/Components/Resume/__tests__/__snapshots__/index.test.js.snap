@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resume is rendering renders 1`] = `
+<DocumentFragment>
+  <div>
+    <h2>
+      Resume
+    </h2>
+    <div
+      class="resume"
+    >
+      <p>
+        Download my 
+        <a
+          href="#"
+          style="margin: 5px 5px 0px 0px; text-decoration: underline; color: blue; cursor: pointer;"
+        >
+          Resume
+        </a>
+         here.
+      </p>
+      <h3>
+        Front End proficiencies
+      </h3>
+      <ul>
+        <li>
+          HTML
+        </li>
+        <li>
+          CSS
+        </li>
+        <li>
+          Javascript
+        </li>
+        <li>
+          Responsive Design
+        </li>
+        <li>
+          Bootstrap
+        </li>
+        <li>
+          jQuery
+        </li>
+        <li>
+          React
+        </li>
+      </ul>
+      <h3>
+        Back End Proficiencies
+      </h3>
+      <ul>
+        <li>
+          MySQL
+        </li>
+        <li>
+          Sequelize
+        </li>
+        <li>
+          NoSQL
+        </li>
+        <li>
+          MongoDB
+        </li>
+        <li>
+          REST
+        </li>
+        <li>
+          Node
+        </li>
+        <li>
+          Express
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

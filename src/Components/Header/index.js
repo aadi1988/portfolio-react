@@ -2,6 +2,8 @@ import React from 'react'
 import Nav1 from '../Nav1'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLaptop } from '@fortawesome/free-solid-svg-icons' 
+
+//Function to render header component.
 function Header(props){
   const {
     categories = [],
@@ -10,12 +12,12 @@ function Header(props){
     portfolioSelected,
     setPortfolioSelected
   } = props;
-     const laptop = <FontAwesomeIcon icon={faLaptop} size="1.5x"/>
+     const laptop = <FontAwesomeIcon icon={faLaptop} size="1x"/>
      return(
         <div>
         <header>
           <h1 style={{color: "white"}}>{laptop}Aaditi Pai</h1>   
-       
+          
           <Nav1 
           categories={categories}
           setCurrentCategory={setCurrentCategory}

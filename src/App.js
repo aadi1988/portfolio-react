@@ -6,6 +6,7 @@ import Cover from './Components/Cover';
 import Portfolio from './Components/Portfolio';
 import Footer from './Components/Footer';
 
+//main page
 function App() {
   const [portfolioSelected, setPortfolioSelected] = useState(false);
   const [categories] = useState(['About Me', 'Portfolio','Contact Me','Resume']);

@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import Button from 'react-bootstrap/Button';
+
+//Function to render contact me component
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
+    //validates email.
     function handleChange(e) {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
@@ -16,6 +20,7 @@ function Contact() {
             }
               
         }else {
+            //validates whether the input field is empty
         if (!e.target.value.length) {
           setErrorMessage(`${e.target.name} is required.`);
         } else {
@@ -26,11 +31,13 @@ function Contact() {
         setFormState({...formState, [e.target.name]: e.target.value })
       }
     }
+    //prevent default on submit button click
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
     }
     return (
+        //renders the page
         <section>
           <h1>Contact me</h1>
           <div className="contact">
@@ -52,7 +59,7 @@ function Contact() {
                       <p className="error-text">{errorMessage}</p>
                  </div>
              )}
-             <button type="submit" onSubmit={handleSubmit} className="inputField">Submit</button>
+             <Button type="submit" onSubmit={handleSubmit} className="inputField">Submit</Button>
             </form>
           </div>
           

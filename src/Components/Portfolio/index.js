@@ -4,10 +4,12 @@ import Contact from '../../Components/Contact'
 import Resume from '../../Components/Resume'
 import Projects from '../../Components/Projects'
 
+//renders portfolio component
 function Portfolio(props){
     const {
         currentCategory
     } = props;
+    //renders pages when a category is clicked in the navbar
     switch(currentCategory) {
         case 'About Me':
           return <About/>;
@@ -23,12 +25,9 @@ function Portfolio(props){
     return (
         
         <div>
-        {this.renderSwitch(currentCategory)}
-        <About/>
-        <Projects/>
-     <Contact/>
-     <Resume/>
-    </div>
+            {this.renderSwitch(currentCategory)}
+            
+        </div>
        
     )
 }

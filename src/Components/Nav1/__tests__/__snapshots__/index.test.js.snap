@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar navbar-expand-lg navbar-dark"
+  >
+    <button
+      aria-controls="responsive-navbar-nav"
+      aria-label="Toggle navigation"
+      class="navbar-toggler collapsed"
+      type="button"
+    >
+      <span
+        class="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      class="navbar-collapse collapse"
+      id="responsive-navbar-nav"
+    >
+      <div
+        class="mr-auto navbar-nav"
+      >
+        <a
+          class="mx-2 nav-link"
+          href="#"
+          role="button"
+        />
+        <a
+          data-testid="cover"
+          href="#"
+        >
+          Cover
+        </a>
+        <a
+          class="false nav-link"
+          href="#"
+          role="button"
+        >
+          <span>
+            Portfolio
+          </span>
+        </a>
+      </div>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

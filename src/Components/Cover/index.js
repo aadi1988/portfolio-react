@@ -1,11 +1,10 @@
 import React from 'react';
-import coverImage from "../../assets/cover/swEng.jpg";
-function Cover() {
+import '../../index.css';
+
+// background image on cover page
+const Cover = () => {
   return (
-    <section>
-     
-      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
-    </section>
+      <div className="bg"></div>
   );
 }
 

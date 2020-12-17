@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.8af15335.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.a2a41cab.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.a2a41cab.chunk.js.map",
-    "runtime-main.js": "/portfolio-react/static/js/runtime-main.9cd42107.js",
-    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.9cd42107.js.map",
-    "static/js/2.9d863270.chunk.js": "/portfolio-react/static/js/2.9d863270.chunk.js",
-    "static/js/2.9d863270.chunk.js.map": "/portfolio-react/static/js/2.9d863270.chunk.js.map",
-    "static/js/3.ebd2ce36.chunk.js": "/portfolio-react/static/js/3.ebd2ce36.chunk.js",
-    "static/js/3.ebd2ce36.chunk.js.map": "/portfolio-react/static/js/3.ebd2ce36.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.eb90f957.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.0b482abd.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.0b482abd.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.006b524d.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.006b524d.js.map",
+    "static/js/2.36200fa9.chunk.js": "/portfolio-react/static/js/2.36200fa9.chunk.js",
+    "static/js/2.36200fa9.chunk.js.map": "/portfolio-react/static/js/2.36200fa9.chunk.js.map",
+    "static/js/3.a25fe736.chunk.js": "/portfolio-react/static/js/3.a25fe736.chunk.js",
+    "static/js/3.a25fe736.chunk.js.map": "/portfolio-react/static/js/3.a25fe736.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "static/css/main.8af15335.chunk.css.map": "/portfolio-react/static/css/main.8af15335.chunk.css.map",
-    "static/js/2.9d863270.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.9d863270.chunk.js.LICENSE.txt",
+    "static/css/main.eb90f957.chunk.css.map": "/portfolio-react/static/css/main.eb90f957.chunk.css.map",
+    "static/js/2.36200fa9.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.36200fa9.chunk.js.LICENSE.txt",
+    "static/media/food-choice.png": "/portfolio-react/static/media/food-choice.c538b933.png",
     "static/media/logo.6ce24c58.svg": "/portfolio-react/static/media/logo.6ce24c58.svg",
     "static/media/swEng.57b2e138.jpg": "/portfolio-react/static/media/swEng.57b2e138.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9cd42107.js",
-    "static/js/2.9d863270.chunk.js",
-    "static/css/main.8af15335.chunk.css",
-    "static/js/main.a2a41cab.chunk.js"
+    "static/js/runtime-main.006b524d.js",
+    "static/js/2.36200fa9.chunk.js",
+    "static/css/main.eb90f957.chunk.css",
+    "static/js/main.0b482abd.chunk.js"
   ]
 }

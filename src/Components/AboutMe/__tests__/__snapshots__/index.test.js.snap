@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <div
+    class="aboutme"
+  >
+    <h2>
+      About Me
+    </h2>
+    <p>
+      I am a software engineer currently working at Cisco. I test various protocols like BGP that drive the internet on routers and switches. Safe to say I connect people 😜! I like learning new things and keeping myself updated on new technologies.I love reading books and watching tv shows and movies. I take any opportunity I get to give back too. Taking part in volunteering activities is one of my favorite things to do! Hope to see you guys on the other side.!
+    </p>
+  </div>
+</DocumentFragment>
+`;

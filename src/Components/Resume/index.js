@@ -1,6 +1,7 @@
 import React from 'react'
 import DownloadLink from "react-download-link";
 
+//renders resume
 function Resume(){
     return (
         <div>
