@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.a858e35c.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.7dee4a68.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.7dee4a68.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.c5dbdbfb.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.c5dbdbfb.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.5031cecd.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.5031cecd.js.map",
     "static/js/2.b61c3309.chunk.js": "/portfolio-react/static/js/2.b61c3309.chunk.js",
@@ -13,7 +13,7 @@
     "static/css/main.a858e35c.chunk.css.map": "/portfolio-react/static/css/main.a858e35c.chunk.css.map",
     "static/js/2.b61c3309.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.b61c3309.chunk.js.LICENSE.txt",
     "static/media/Common-capitalism.png": "/portfolio-react/static/media/Common-capitalism.c3a6b34f.png",
-    "static/media/IMG_4176.jpg": "/portfolio-react/static/media/IMG_4176.70640265.jpg",
+    "static/media/dog-adopt.png": "/portfolio-react/static/media/dog-adopt.a0c047a7.png",
     "static/media/food-choice.png": "/portfolio-react/static/media/food-choice.c538b933.png",
     "static/media/logo.6ce24c58.svg": "/portfolio-react/static/media/logo.6ce24c58.svg"
   },
@@ -21,6 +21,6 @@
     "static/js/runtime-main.5031cecd.js",
     "static/js/2.b61c3309.chunk.js",
     "static/css/main.a858e35c.chunk.css",
-    "static/js/main.7dee4a68.chunk.js"
+    "static/js/main.c5dbdbfb.chunk.js"
   ]
 }
