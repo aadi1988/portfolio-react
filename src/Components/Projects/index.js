@@ -39,10 +39,10 @@ function Projects(){
              <Row>
                 <Col xs={12} md={12} lg={6} style={{"margin-top": "20px", "margin-bottom": "20px"}}>
                       <div className="example">
-                         <img src={require("../../assets/images/IMG_4176.jpg").default} alt="link to second project"/>
+                         <img src={require("../../assets/images/dog-adopt.png").default} alt="link to second project"/>
                          <div className="content"> 
-                              <h3>Project3</h3>
-                              
+                              <h3><a href="https://adopt-me-hameed1239.herokuapp.com/">Dog Adoption</a></h3>
+                              <a href="https://github.com/hameed1239/adopt-me"><span role="img" aria-label="github">{github}</span></a>
                          </div>
                       </div></Col>
                 
